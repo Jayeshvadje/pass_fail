@@ -1,0 +1,16 @@
+
+print("*****\tHello and welcome to kthm collage\t*****")
+
+a=int(input("enter your marks you got in exam \n"))
+
+
+if a < 35:
+    print(" \n \t SORRY \n you are fail")
+elif a >= 35 and a <= 45:
+    print(" \n \t CONRATUlATION  \n you are pass and you got third class")
+elif a > 45 and a <= 59:
+    print(" \n \t CONRATUlATION  \n you are pass and you got second class")
+elif a >= 60 and a <= 74:
+    print(" \n \t CONRATUlATION  \n you are pass and you got first class")
+elif a >= 75:
+    print(" \n \t CONRATUlATION  \n you are pass and you got distinction")
